@@ -65,6 +65,8 @@ sudo mvn spring-boot:run
 # 或者编译后运行 JAR
 mvn clean package
 sudo java -jar target/springboot-net-capture-1.0.0.jar
+#如果提示java命令找不到，使用全路径执行命令,如：
+sudo /usr/local/java/jdk17/bin/java -jar target/springboot-net-capture-1.0.0.jar 
 ```
 
 ### 4. 访问系统
